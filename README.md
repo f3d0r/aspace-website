@@ -1,3 +1,3 @@
 # aspace-website
 
-aspace, Inc. Website
+aspace, Inc. - Website
