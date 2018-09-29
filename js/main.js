@@ -82,7 +82,6 @@ window.addEventListener('DOMContentLoaded', function (){
     //
     //             })
     //             .always(function(response) {
-    //                 console.log(response);
     //                 $submitButton.val(submitButtonValue);
     //             });
     //     }
@@ -293,7 +292,6 @@ window.addEventListener('DOMContentLoaded', function (){
                             message.show($errorMessage, 'Uh. We could not connect to the server. Please try again later.');
                         })
                         .always(function(response) {
-                            console.log(response);
                         });
                 }
 
