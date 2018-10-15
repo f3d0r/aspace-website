@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 
-    ***REMOVED***
+***REMOVED***
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,6 +14,66 @@
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
     <meta name="generator" content="Unicorn Platform" />
     <title>aspace, Inc.</title>
+
+    <!-- start Mixpanel -->
+    <script type="text/javascript">
+        (function (e, a) {
+            if (!a.__SV) {
+                var b = window;
+                try {
+                    var c, l, i, j = b.location,
+                        g = j.hash;
+                    c = function (a, b) {
+                        return (l = a.match(RegExp(b + "=([^&]*)"))) ? l[1] : null
+                    };
+                    g && c(g, "state") && (i = JSON.parse(decodeURIComponent(c(g, "state"))), "mpeditor" === i.action &&
+                        (b.sessionStorage.setItem("_mpcehash", g), history.replaceState(i.desiredHash || "", e.title,
+                            j.pathname + j.search)))
+                } catch (m) {}
+                var k, h;
+                window.mixpanel = a;
+                a._i = [];
+                a.init = function (b, c, f) {
+                    function e(b, a) {
+                        var c = a.split(".");
+                        2 == c.length && (b = b[c[0]], a = c[1]);
+                        b[a] = function () {
+                            b.push([a].concat(Array.prototype.slice.call(arguments,
+                                0)))
+                        }
+                    }
+                    var d = a;
+                    "undefined" !== typeof f ? d = a[f] = [] : f = "mixpanel";
+                    d.people = d.people || [];
+                    d.toString = function (b) {
+                        var a = "mixpanel";
+                        "mixpanel" !== f && (a += "." + f);
+                        b || (a += " (stub)");
+                        return a
+                    };
+                    d.people.toString = function () {
+                        return d.toString(1) + ".people (stub)"
+                    };
+                    k =
+                        "disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user"
+                        .split(" ");
+                    for (h = 0; h < k.length; h++) e(d, k[h]);
+                    a._i.push([b, c, f])
+                };
+                a.__SV = 1.2;
+                b = e.createElement("script");
+                b.type = "text/javascript";
+                b.async = !0;
+                b.src = "undefined" !== typeof MIXPANEL_CUSTOM_LIB_URL ? MIXPANEL_CUSTOM_LIB_URL : "file:" === e.location
+                    .protocol && "//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//) ?
+                    "https://cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js" :
+                    "//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js";
+                c = e.getElementsByTagName("script")[0];
+                c.parentNode.insertBefore(b, c)
+            }
+        })(document, window.mixpanel || []);
+        mixpanel.init("***REMOVED***");
+    </script><!-- end Mixpanel -->
 </head>
 
 <body>
@@ -44,8 +105,8 @@
                                                             <div class="message__bubble_text">Access our Alpha-test.</div>
                                                         </div>
                                                         <div class="message__bubble">
-                                                            <div class="message__bubble_text">Get better parking!<img class="emoji  " src="img/emoji/smirking.png"
-                                                                    alt="Emoji" />
+                                                            <div class="message__bubble_text">Get better parking!<img
+                                                                    class="emoji  " src="img/emoji/smirking.png" alt="Emoji" />
                                                             </div>
                                                         </div>
                                                     </div>
@@ -238,7 +299,7 @@
         <div class="container container--small">
             <div class="cta_button-02__button_box">
                 <ul class="rich_download_app rich_download_app--center">
-                    <li class="rich_download_app__item"><a class="store-button" href="javascript:void(0);" target="_blank">
+                    <li class="rich_download_app__item"><a class="store-button" onClick="mixpanel.track('iOS App Download Clicked');" href="javascript:void(0);" target="_blank">
                             <div class="store-button__img">
                                 <?xml version="1.0" encoding="UTF-8"?>
                                 <svg width="97px" height="26px" viewBox="0 0 97 26" version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -312,10 +373,12 @@
                             <!-- <div class="score__stars"><img class="score__star" src="img/icons/star--blue.svg" /><img
                                     class="score__star" src="img/icons/star--blue.svg" /><img class="score__star" src="img/icons/star--blue.svg" /><img
                                     class="score__star" src="img/icons/star--blue.svg" /><img class="score__star" src="img/icons/star--0--blue.svg" /></div> -->
-                            <div class="score__text"><br><span class="score__word"></span><span class="score__value">Coming soon!</span></div>
+                            <div class="score__text"><br><span class="score__word"></span><span class="score__value">Coming
+                                    soon!</span></div>
                         </div>
                     </li>
-                    <li class="rich_download_app__item"><a class="store-button" href="https://play.google.com/store/apps/details?id=aspace.trya" target="_blank">
+                    <li class="rich_download_app__item"><a class="store-button" onClick="mixpanel.track('Android App Download Clicked');" href="https://play.google.com/store/apps/details?id=aspace.trya"
+                            target="_blank">
                             <div class="store-button__img">
                                 <?xml version="1.0" encoding="UTF-8"?>
                                 <svg width="109px" height="29px" viewBox="0 0 109 29" version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -422,7 +485,8 @@
                             <!-- <div class="score__stars"><img class="score__star" src="img/icons/star--blue.svg" /><img
                                     class="score__star" src="img/icons/star--blue.svg" /><img class="score__star" src="img/icons/star--blue.svg" /><img
                                     class="score__star" src="img/icons/star--blue.svg" /><img class="score__star" src="img/icons/star--1-2--blue.svg" /></div> -->
-                            <div class="score__text"><br><span class="score__word"></span><span class="score__value">Get it now!</span></div>
+                            <div class="score__text"><br><span class="score__word"></span><span class="score__value">Get
+                                    it now!</span></div>
                         </div>
                     </li>
                 </ul>
@@ -466,8 +530,8 @@
                         </h3>
                         <p class="feature__content"><span>Spend less time circling downtown &#8212; we route you
                                 directly to the best parking spots!
-                            </span></p><a class="feature__link" href="javascript:void(0);" target="_blank"><span></br>Try it</span><span
-                                class="icon"><svg viewBox="0 0 13 10" xmlns="http://www.w3.org/2000/svg">
+                            </span></p><a class="feature__link" href="javascript:void(0);" target="_blank"><span></br>Try
+                                it</span><span class="icon"><svg viewBox="0 0 13 10" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M12.823 4.164L8.954.182a.592.592 0 0 0-.854 0 .635.635 0 0 0 0 .88l2.836 2.92H.604A.614.614 0 0 0 0 4.604c0 .344.27.622.604.622h10.332L8.1 8.146a.635.635 0 0 0 0 .88.594.594 0 0 0 .854 0l3.869-3.982a.635.635 0 0 0 0-.88z"
                                         fill-rule="nonzero" fill="#00396B" /></svg></span></a>
                     </div>
@@ -527,12 +591,12 @@
                     <h3 class="contact-02__item_title">Follow Us</h3>
                     <div class="contact-02__social social-buttons social-buttons--left">
                         <ul class="social-buttons__list">
-                            <li class="social-buttons__item"><a class="social-buttons__link" href="https://www.facebook.com/aspaceinc/"
-                                    target="_blank"><img class="social-buttons__icon" src="img/icons/social/black/facebook.svg" /></a></li>
-                            <li class="social-buttons__item"><a class="social-buttons__link" href="https://twitter.com/aspace_inc"
-                                    target="_blank"><img class="social-buttons__icon" src="img/icons/social/black/twitter.svg" /></a></li>
-                            <!-- <li class="social-buttons__item"><a class="social-buttons__link" href="http://dribbble.com/alexanderisora"
-                                    target="_blank"><img class="social-buttons__icon" src="img/icons/social/black/dribbble.svg" /></a></li> -->
+                            <li class="social-buttons__item"><a class="social-buttons__link" onClick="mixpanel.track('Facebook Social Clicked');"
+                                    href="https://www.facebook.com/aspaceinc/" target="_blank"><img class="social-buttons__icon"
+                                        src="img/icons/social/black/facebook.svg" /></a></li>
+                            <li class="social-buttons__item"><a class="social-buttons__link" onClick="mixpanel.track('Twitter Social Clicked');"
+                                    href="https://twitter.com/aspace_inc" target="_blank"><img class="social-buttons__icon"
+                                        src="img/icons/social/black/twitter.svg" /></a></li>
                         </ul>
                     </div>
                 </li>
