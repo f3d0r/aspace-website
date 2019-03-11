@@ -1,0 +1,13 @@
+{
+    "alias": ["www.trya.space"],
+    "name": "aspace-website-redirect",
+    "regions": ["all"],
+    "routes": [{
+        "headers": {
+            "Location": "https://trya.space/$1"
+        },
+        "src": "/(.*)",
+        "status": 301
+    }],
+    "version": 2
+}

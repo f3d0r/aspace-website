@@ -1,0 +1,45 @@
+{
+    "alias": ["trya.space"],
+    "builds": [{
+            "src": "*.html",
+            "use": "@now/html-minifier"
+        },
+        {
+            "src": "privacy/*.html",
+            "use": "@now/html-minifier"
+        },
+        {
+            "src": "js/*",
+            "use": "@now/static"
+        },
+        {
+            "src": "css/*",
+            "use": "@now/static"
+        },
+        {
+            "src": "img/*",
+            "use": "@now/static"
+        },
+        {
+            "src": "*.png",
+            "use": "@now/static"
+        },
+        {
+            "src": "robots.txt",
+            "use": "@now/static"
+        },
+        {
+            "src": "sitemap.xml",
+            "use": "@now/static"
+        }
+    ],
+    "github": {
+        "autoAlias": true,
+        "autoJobCancelation": true,
+        "enabled": true,
+        "silent": true
+    },
+    "name": "aspace-website",
+    "regions": ["all"],
+    "version": 2
+}
