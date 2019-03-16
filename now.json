@@ -21,19 +21,51 @@
             "use": "@now/static"
         },
         {
-            "src": "img/abstract_icons/*.svg",
+            "src": "img/icons/abstract_icons/*.svg",
             "use": "@now/static"
         },
         {
-            "src": "img/social/black/*.svg",
+            "src": "img/icons/social/black/*.svg",
             "use": "@now/static"
         },
         {
-            "src": "img/social/white/*.svg",
+            "src": "img/icons/social/white/*.svg",
             "use": "@now/static"
         },
         {
             "src": "img/icons/*.svg",
+            "use": "@now/static"
+        },
+        {
+            "src": "img/logos/*.svg",
+            "use": "@now/static"
+        },
+        {
+            "src": "img/logos/*.png",
+            "use": "@now/static"
+        },
+        {
+            "src": "img/logos/app-vendors/*.svg",
+            "use": "@now/static"
+        },
+        {
+            "src": "img/logos/companies/*.svg",
+            "use": "@now/static"
+        },
+        {
+            "src": "img/logos/press/black/*.svg",
+            "use": "@now/static"
+        },
+        {
+            "src": "img/logos/press/white/*.svg",
+            "use": "@now/static"
+        },
+        {
+            "src": "img/logos/press/*.svg",
+            "use": "@now/static"
+        },
+        {
+            "src": "img/logos/tech/*.svg",
             "use": "@now/static"
         },
         {
