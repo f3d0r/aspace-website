@@ -5,10 +5,6 @@
  * Licensed MIT © Zeno Rocha
  */
 
-window.Intercom("boot", {
-    app_id: "***REMOVED***"
-});
-
 ! function (t, e) {
     "object" == typeof exports && "object" == typeof module ? module.exports = e() : "function" == typeof define && define.amd ? define([], e) : "object" == typeof exports ? exports.ClipboardJS = e() : t.ClipboardJS = e()
 }(this, function () {
