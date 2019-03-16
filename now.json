@@ -2,11 +2,11 @@
     "alias": ["trya.space"],
     "builds": [{
             "src": "*.html",
-            "use": "@now/html-minifier"
+            "use": "@now/static"
         },
         {
             "src": "privacy/*.html",
-            "use": "@now/html-minifier"
+            "use": "@now/static"
         },
         {
             "src": "js/*.js",
