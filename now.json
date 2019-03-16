@@ -69,6 +69,42 @@
             "use": "@now/static"
         },
         {
+            "src": "img/other/app-vendors/*.svg",
+            "use": "@now/static"
+        },
+        {
+            "src": "img/other/plugin/*.svg",
+            "use": "@now/static"
+        },
+        {
+            "src": "img/other/plugin/*.png",
+            "use": "@now/static"
+        },
+        {
+            "src": "img/other/*.svg",
+            "use": "@now/static"
+        },
+        {
+            "src": "img/other/*.png",
+            "use": "@now/static"
+        },
+        {
+            "src": "img/other/*.jpeg",
+            "use": "@now/static"
+        },
+        {
+            "src": "img/plugins/*.svg",
+            "use": "@now/static"
+        },
+        {
+            "src": "img/other/*.png",
+            "use": "@now/static"
+        },
+        {
+            "src": "img/screenshots/*.png",
+            "use": "@now/static"
+        },
+        {
             "src": "*.png",
             "use": "@now/static"
         },
