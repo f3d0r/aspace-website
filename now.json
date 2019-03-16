@@ -9,11 +9,11 @@
             "use": "@now/html-minifier"
         },
         {
-            "src": "js/*",
+            "src": "js/*.js",
             "use": "@now/static"
         },
         {
-            "src": "css/*",
+            "src": "css/*.css",
             "use": "@now/static"
         },
         {
