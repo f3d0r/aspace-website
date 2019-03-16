@@ -17,7 +17,23 @@
             "use": "@now/static"
         },
         {
-            "src": "img/*/*/*",
+            "src": "img/emoji/*.png",
+            "use": "@now/static"
+        },
+        {
+            "src": "img/abstract_icons/*.svg",
+            "use": "@now/static"
+        },
+        {
+            "src": "img/social/black/*.svg",
+            "use": "@now/static"
+        },
+        {
+            "src": "img/social/white/*.svg",
+            "use": "@now/static"
+        },
+        {
+            "src": "img/icons/*.svg",
             "use": "@now/static"
         },
         {
