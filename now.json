@@ -1,5 +1,5 @@
 {
-    "alias": ["trya.space"],
+    "alias": ["aspace.fedor.me", "www.aspace.fedor.me"],
     "builds": [{
             "src": "*.html",
             "use": "@now/static"
